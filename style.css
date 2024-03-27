@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato';
+}
+
+.outerbox{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg, #d2001a,#7462ff,#f48e21,#23d5ab);
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;
+}
+.innerbox{
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px 40px;
+    background-color: #ffffffcc;
+    backdrop-filter: blur(8px);
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px #285f92;
+    z-index: 2;
+}
+
+.sh h1{
+    font-size: 2.5rem;
+    color: #212121;
+}
+.sh p{
+    font-size: 0.8rem;
+    color: #555;
+}
+.sb{
+    margin: 20px 0;
+}
+
+.sb p{
+    margin: 10px 0;
+}
+.sb p label{
+    display: block;
+    font-weight: bold;
+}
+.sb p input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #cccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    margin-top: 4px;
+} 
+
+.sb p input[type="submit"]{
+    background-color: #3489db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+}
+.sb p input[type="submit"]:hover{
+    background-color:#285f92 ;
+}
+
+.sf p{
+    color: #555;
+    text-align: center;
+}
+
+.sf p a{
+    color: #285f92;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background:linear-gradient(to bottom, white, #7278e0) ;
+    position: absolute;
+}
+
+.c1{
+    top: 100px;
+    left: 40px;
+}
+
+.c2{
+    bottom: 100px;
+    right: 40px;
+}
+
