@@ -18,7 +18,8 @@
     }
 }
 @media screen and (max-width: 479px){
-    .outerbox{
-        width: 100%;
+    .innerbox{
+        width: 75%;
+        flex-wrap: wrap;
     }
 }
